@@ -1,3 +1,27 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+		url('fonts/Roboto/Roboto-Regular.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'Crete Round';
+	src: url('fonts/Crete_Round/CreteRound-Regular.woff2') format('woff2'),
+		url('fonts/Crete_Round/CreteRound-Regular.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+		url('fonts/Poppins/Poppins-Regular.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('fonts/Inter/static/Inter-Regular.woff2') format('woff2'),
+		url('fonts/Inter/static/Inter-Regular.ttf') format('truetype')
+}
+
 body {
   display: flex;
   align-items: center;
@@ -19,6 +43,7 @@ body {
 }
 
 .logo a {
+  font-family: 'Roboto','Courier New', Courier, monospace;
   color: #fff;
   font-style: normal;
   font-weight: 700;
@@ -45,7 +70,7 @@ body {
 
 .primary-text {
   height: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -59,7 +84,7 @@ body {
 }
 
 .supporting-text {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto','Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -70,14 +95,13 @@ body {
 }
 
 .description {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.2px;
   color: #fff;
-  margin: 6px 28px 15px 24px;
+  margin: 6px 18px 15px 24px;
 }
 
 .social-media {
@@ -90,7 +114,7 @@ body {
 }
 
 .about-me a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -112,7 +136,7 @@ body {
 
 .first-project a {
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -122,7 +146,7 @@ body {
 
 .next-projects a {
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -158,18 +182,21 @@ body {
 }
 
 .projects h2 {
+  width: 327px;
   display: flex;
   justify-content: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 350px;
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
   border-bottom: 1px solid #212121;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 120px;
-  margin-bottom: 104px;
-  padding-bottom: 15px;
+  margin-bottom: 90px;
+  padding-bottom: 40px;
 }
 
 .first-project {
@@ -177,7 +204,7 @@ body {
 }
 
 .first-project h3 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -189,7 +216,7 @@ body {
 }
 
 .first-project p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -213,7 +240,7 @@ body {
 }
 
 .first-project button {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -239,7 +266,7 @@ body {
 }
 
 .next-projects h3 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -250,7 +277,7 @@ body {
 }
 
 .next-projects p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,7 +303,7 @@ body {
 }
 
 .next-projects button {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   width: 327px;
   font-style: normal;
   font-weight: 700;
@@ -311,7 +338,7 @@ footer {
 }
 
 .about-me-title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -322,7 +349,7 @@ footer {
 }
 
 .about-me p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -348,7 +375,7 @@ footer {
 }
 
 .achivement-list h4 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppins', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -370,7 +397,7 @@ footer {
 }
 
 .achivement-list li {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -387,7 +414,7 @@ footer {
 }
 
 .contacts h4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -408,18 +435,21 @@ footer {
 
 input[type=text],
 input[type=email] {
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   width: 327px;
   border: none;
   border-bottom: solid 2px #dbd8d7;
 }
 
 textarea {
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   background-color: #fbf8f7;
 }
 
 .social-media-submit {
   background-color: #ff6b00;
   color: #fff;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
