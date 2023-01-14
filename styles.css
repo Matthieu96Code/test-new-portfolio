@@ -1,0 +1,101 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  width: 375px;
+}
+
+.app-bar {
+  background-color: #3c3a39;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  position: relative;
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  position: relative;
+}
+
+.logo {
+  margin: 24px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.union-vector {
+  position: absolute;
+  right: 35px;
+}
+
+.headline {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #1c1a19;
+
+  /* height: 590px; */
+}
+
+.primary-text {
+  height: auto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  display: flex;
+  margin: 0 0 6px 24px;
+}
+
+.supporting-text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.37px;
+  color: #fff5e1;
+  margin: 6px 0 6px 24px;
+}
+
+.description {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin: 6px 28px 6px 24px;
+}
+
+.social-media {
+  margin: 6px 0 0 24px;
+}
+
+.social-media img {
+  padding: 10px;
+}
+
+.decoration img {
+  position: relative;
+  bottom: 110px;
+  float: right;
+}
