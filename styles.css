@@ -3,7 +3,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #e5e5e5;
-  
+
 }
 .toolbar {
   display: flex;
@@ -45,7 +45,7 @@ body {
 
 .primary-text {
   height: auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -59,7 +59,7 @@ body {
 }
 
 .supporting-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -70,7 +70,7 @@ body {
 }
 
 .description {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -102,12 +102,14 @@ body {
 }
 
 .projects h2 {
-  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  color: #1C1A19;
+  color: #1c1a19;
   border-bottom: 1px solid #212121;
   margin-top: 120px;
   margin-bottom: 104px;
@@ -119,24 +121,24 @@ body {
 }
 
 .first-project h3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #091Ea2;
+  color: #091ea2;
   margin: 0px;
   margin-top: 12px;
   margin-bottom: 6px;
-  }
+}
 
 .first-project p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   margin: 0px;
   margin-right: 24px;
 }
@@ -156,7 +158,7 @@ body {
 
 .first-project a {
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -165,7 +167,7 @@ body {
 }
 
 .first-project button {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -180,20 +182,18 @@ body {
   margin-top: 12px;
 }
 
-
-
 .next-projects {
   background-image: url("img/Project/Img Placeholder2.png");
   background-repeat: no-repeat;
   background-size: 327px 386px;
   background-position-x: center;
-  padding-left: 0px;
+  padding-left: 24px;
   padding-top: 84px;
   margin-top: 24px;
 }
 
 .next-projects h3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -204,7 +204,7 @@ body {
   }
 
 .next-projects p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -222,7 +222,7 @@ body {
 .next-projects li {
   list-style-type: none;
   display: inline;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   margin-right: 12px;
   margin-bottom: 12px;
@@ -285,7 +285,7 @@ footer {
   margin: 0px;
 }
 
-.about-me p{
+.about-me p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -360,7 +360,7 @@ footer {
   text-align: center;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .contacts {
@@ -388,7 +388,8 @@ footer {
   align-items: center;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
   width: 327px;
   border: none;
   border-bottom: solid 2px #dbd8d7;
@@ -411,7 +412,6 @@ textarea {
   letter-spacing: 0.03em;
   padding: 12px;
 }
-
 
 .social-media2 {
   background-image: url(img/footer/Shape.png);
