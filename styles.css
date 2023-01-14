@@ -3,7 +3,6 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #e5e5e5;
-
 }
 
 .toolbar {
@@ -54,7 +53,7 @@ body {
   letter-spacing: 0.37px;
   color: #ff6b00;
   display: flex;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 6px;
   margin-left: 24px;
 }
@@ -88,8 +87,29 @@ body {
 .social-media li {
   padding-right: 20px;
   display: inline;
-
 }
+
+.about-me a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  width: 161px;
+  height: 48px;
+}
+
+.social-media2 a {
+  text-decoration: none;
+}
+
 .first-project a {
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -102,7 +122,7 @@ body {
 
 .next-projects a {
   text-decoration: none;
-  font-family: 'sans-serif';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -117,7 +137,7 @@ body {
   background-position-y: bottom;
   display: flex;
   justify-content: center;
-  padding-left: 0px;
+  padding-left: 0;
   padding-top: 20px;
   margin-top: 124px;
   margin-bottom: 8px;
@@ -163,7 +183,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #091ea2;
-  margin: 0px;
+  margin: 0;
   margin-top: 12px;
   margin-bottom: 6px;
 }
@@ -175,12 +195,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  margin: 0px;
+  margin: 0;
   margin-right: 24px;
 }
 
 .first-project ul {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .first-project li {
@@ -224,7 +244,7 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin: 0px;
+  margin: 0;
   color: #fff;
   margin-left: 16px;
 }
@@ -236,7 +256,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 0px;
+  margin: 0;
   margin-left: 16px;
   width: 295px;
 }
@@ -256,7 +276,7 @@ body {
 }
 
 .next-projects button {
-  font-family: 'sans-serif';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 327px;
   font-style: normal;
   font-weight: 700;
@@ -272,11 +292,11 @@ body {
   padding: 12px;
   margin-top: 22px;
 }
-  
+
 footer {
   background-color: #fff;
   width: 375px;
-  margin: 0px;
+  margin: 0;
   padding-top: 120px;
 }
 
@@ -285,9 +305,9 @@ footer {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 350px;
-  background-color:#1c1a19;
+  background-color: #1c1a19;
   padding: 120px 24px 209px 24px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .about-me-title {
@@ -298,7 +318,7 @@ footer {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin: 0px;
+  margin: 0;
 }
 
 .about-me p {
@@ -310,38 +330,21 @@ footer {
   color: #f4f5f7;
 }
 
-.about-me a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  background-color: #ff6b00;
-  width: 161px;
-  height: 48px;
-}
-
 .achivement {
   background-image: url(img/footer/Frame2.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: top;
   background-color: #1c1a19;
-  margin-top: 0px;
-  padding: 100px 50px 131px 0px;
+  margin-top: 0;
+  padding: 100px 50px 131px 0;
 }
 
 .achivement-list ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
 }
 
 .achivement-list h4 {
@@ -366,7 +369,6 @@ footer {
   margin-right: 12px;
 }
 
-
 .achivement-list li {
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
@@ -385,7 +387,7 @@ footer {
 }
 
 .contacts h4 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -394,7 +396,7 @@ footer {
   color: #172b4d;
   padding-left: 24px;
   padding-right: 24px;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 100px;
 }
 
@@ -432,11 +434,7 @@ textarea {
 .social-media2 li {
   list-style-type: none;
   display: inline;
-  padding: 0px;
+  padding: 0;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.social-media2 a {
-  text-decoration: none;
 }
