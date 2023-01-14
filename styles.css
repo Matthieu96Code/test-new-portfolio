@@ -1,40 +1,29 @@
 body {
   display: flex;
-  justify-content: center;
-}
-
-.phone-width {
-  width: 375px;
-}
-
-.app-bar {
-  background-color: #3c3a39;
-  height: 48px;
-  display: flex;
-  flex-direction: column;
-}
-
-.bar {
-  position: relative;
-  display: flex;
-  height: 44px;
   align-items: center;
+  flex-direction: column;
 }
 
 .toolbar {
   display: flex;
   align-items: center;
+  width: 375px;
   height: 48px;
   position: relative;
+  background-color: #3c3a39
 }
 
 .logo {
   margin: 24px;
+}
+
+.logo a {
   color: #fff;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .union-vector {
@@ -43,11 +32,14 @@ body {
 }
 
 .headline {
+  background-image: url("img/Normal Button/Tertiary/Icons/Group2.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 295px;
+  width: 375px;
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #1c1a19;
-
-  /* height: 590px; */
 }
 
 .primary-text {
@@ -82,15 +74,21 @@ body {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #fff;
-  margin: 6px 28px 6px 24px;
+  margin: 6px 28px 15px 24px;
 }
 
 .social-media {
-  margin: 6px 0 0 24px;
+  margin: 15px 0px 0px 0px;
 }
 
-.social-media img {
-  padding: 10px;
+.social-media li {
+  padding-right: 20px;
+  display: inline;
+}
+
+.social-media li a {
+  display: inline;
+  text-decoration: none;
 }
 
 .decoration img {
