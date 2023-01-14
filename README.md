@@ -24,7 +24,7 @@
 
 # 📖 Portfolio setup mobile first <a name="about-project"></a>
 
-**Portfolio setup mobile first** is my first step in creating my portfolio with the first two sections using a template provided by Microverse through figma.
+**Portfolio setup mobile first** is my first step in creating my portfolio with the entire sections using a template provided by Microverse through figma.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +44,8 @@
 - **show a portfolio on a web page**
 - **show a design based on the chosen template**
 - **show the main lines of information**
+- **show the works section**
+- **show section about me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,8 +115,8 @@ not required
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **show more customization**
-- [ ] **show the completed project**
-- [ ] **show contacts form**
+- [ ] **show more works**
+- [ ] **show more atractive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
