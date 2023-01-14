@@ -87,12 +87,5 @@ body {
 }
 
 .social-media li a {
-  display: inline;
   text-decoration: none;
-}
-
-.decoration img {
-  position: relative;
-  bottom: 110px;
-  float: right;
 }
