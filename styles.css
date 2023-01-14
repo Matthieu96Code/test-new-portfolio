@@ -10,7 +10,7 @@ body {
   width: 375px;
   height: 48px;
   position: relative;
-  background-color: #3c3a39
+  background-color: #3c3a39;
 }
 
 .logo {
@@ -78,7 +78,7 @@ body {
 }
 
 .social-media {
-  margin: 15px 0px 0px 0px;
+  margin-top: 15px;
 }
 
 .social-media li {
