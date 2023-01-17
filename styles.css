@@ -431,6 +431,8 @@ body {
   background-color: #fff;
 }
 
+
+
 .contacts h4 {
   font-family: 'Crete Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -445,10 +447,11 @@ body {
   margin-bottom: 100px;
 }
 
-.contacts form {
+.contacts ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
 }
 
 input[type=text],
