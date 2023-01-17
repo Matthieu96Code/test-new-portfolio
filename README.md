@@ -46,6 +46,9 @@
 - **show the main lines of information**
 - **show the works section**
 - **show section about me**
+- **show contact form**
+- **allow submission**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +141,7 @@ If you like this project, please consider leaving a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for supporting this project.
+I would like to thank Shubham Bhoyar and Microverse for supporting this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
