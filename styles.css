@@ -329,14 +329,14 @@ body {
   padding-top: 120px;
 }
 
-.contacts-section{
+.contacts-section {
   background-color: #fff;
   width: 375px;
   margin: 0;
   padding-top: 120px;
 }
 
-.footer-section{
+.footer-section {
   background-color: #fff;
   width: 375px;
   margin: 0;
@@ -443,12 +443,20 @@ body {
   margin-bottom: 73px;
 }
 
-.contacts ul{
+.contacts ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style: none;
   padding: 0;
+}
+
+.social-media2 li {
+  list-style-type: none;
+  display: inline;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contacts ul li {
@@ -485,14 +493,6 @@ textarea {
   letter-spacing: 0.03em;
   padding: 12px;
   border: none;
-}
-
-.social-media2 li {
-  list-style-type: none;
-  display: inline;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .about-me a:hover,
