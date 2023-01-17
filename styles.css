@@ -159,10 +159,6 @@ body {
 }
 
 .social-media2 {
-  background-image: url(img/footer/Shape.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -257,6 +253,7 @@ body {
   background-color: #ff6b00;
   padding: 12px;
   margin-top: 12px;
+  border: none;
 }
 
 .next-projects {
@@ -322,9 +319,24 @@ body {
   background-color: #ff6b00;
   padding: 12px;
   margin-top: 22px;
+  border: none;
 }
 
-footer {
+.aboutme-langs {
+  background-color: #fff;
+  width: 375px;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.contacts-section {
+  background-color: #fff;
+  width: 375px;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.footer-section {
   background-color: #fff;
   width: 375px;
   margin: 0;
@@ -428,17 +440,32 @@ footer {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 73px;
 }
 
-.contacts form {
+.contacts ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media2 li {
+  list-style-type: none;
+  display: inline;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contacts ul li {
+  margin-bottom: 39px;
 }
 
 input[type=text],
 input[type=email] {
+  padding-bottom: 14px;
   font-family: 'Inter', 'Courier New', Courier, monospace;
   width: 327px;
   border: none;
@@ -446,8 +473,10 @@ input[type=email] {
 }
 
 textarea {
+  width: 327px;
   font-family: 'Inter', 'Courier New', Courier, monospace;
   background-color: #fbf8f7;
+  border: none;
 }
 
 .social-media-submit {
@@ -463,12 +492,24 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 12px;
+  border: none;
 }
 
-.social-media2 li {
-  list-style-type: none;
-  display: inline;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+.about-me a:hover,
+button:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.about-me a:active,
+button:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.about-me a:visited,
+button:visited {
+  color: #5b5957;
+  background-color: #f4f1f0;
 }

@@ -238,7 +238,7 @@
                 </button>
             </section>
         </section>
-        <footer>
+        <section class="aboutme-langs">
             <div class="about-me">
                 <h2 class="about-me-title">
                     About me
@@ -329,17 +329,24 @@
                     </li>
                 </ul>
             </div>
+        </section>
+        <section class="contacts-section">
             <div class="contacts">
                 <h4>
                     I'm always interested in hearing about new projects, 
                     so if you'd like to chat please get in touch.
                 </h4>
-                <form action="">
-                    <input type="text" name="Full-name" id="Full-name" placeholder="Full name"> <br>
-                    <input type="email" name="email" id="email" placeholder="Email address"> <br>
-                    <textarea name="comment" id="" cols="42" rows="7" placeholder="Enter text here"></textarea> <br>
-                    <input type="submit" value="Get in touch" class="social-media-submit">
+                <form action="https://formspree.io/f/mlekdbwd" method="post">
+                    <ul>
+                        <li><input type="text" name="Full-name" id="Full-name" maxlength="30" placeholder="Full name" required></li>
+                        <li><input type="email" name="email" id="email" placeholder="Email address" required> </li>
+                        <li><textarea name="comment" id="" cols="30" rows="7" maxlength="500" placeholder="Enter text here" required></textarea> </li>
+                        <li><button type="submit" class="social-media-submit">Get in touch</button></li>
+                    </ul>
                 </form>
+            </div>
+            </section>
+            <footer class="footer-section">
                 <ul class="social-media2">
                     <li>
                         <a href="#">
@@ -367,7 +374,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            
         </footer>
     </body>
 </html>
