@@ -331,6 +331,13 @@ body {
   padding-top: 120px;
 }
 
+.contacts-section{
+  background-color: #fff;
+  width: 375px;
+  margin: 0;
+  padding-top: 120px;
+}
+
 .about-me {
   background-image: url("img/footer/Frame.png");
   background-repeat: no-repeat;
