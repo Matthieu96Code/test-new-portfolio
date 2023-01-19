@@ -26,9 +26,6 @@
     url('fonts/Inter/static/Inter-Regular.ttf') format('truetype');
 }
 
-
-
-
 body {
   display: flex;
   align-items: center;
@@ -281,6 +278,7 @@ body {
   margin-left: 24px;
   padding-top: 84px;
   margin-top: 24px;
+  margin-right: auto;
 }
 
 .next-projects h3 {
@@ -308,6 +306,7 @@ body {
 
 .next-projects ul {
   padding-left: 16px;
+  margin-bottom: 22px;
 }
 
 .next-projects li {
@@ -574,23 +573,21 @@ a {
     display: none;
   }
 
-  .logo a {
-    margin-left: 25%;
+  .logo {
+    margin-left: 9%;
   }
 
-  .nav-btn {
-    margin: 0;
+  .union-vector {
+    margin-right: 9%;
   }
 
   .nav-links{
-    margin: 0;
     display: flex;
-    float: right;
     margin-right: 25%;
   }
 
   .nav-links li {
-    padding-left: 32px;
+    padding-left: 24px;
   }
 
   .headline {
@@ -601,16 +598,29 @@ a {
     align-items: center;
     height: 870px;
     padding: 0;
+    
+  }
+
+  .primary-text,
+  .supporting-text,
+  .description {
+    margin: 0;
+    padding-top: 14px;
   }
 
   .social-media {
     padding: 0;
     flex-direction: column;
+    margin-top: 0;
+    padding: 0;
     order: -1;
+    width: 7%;
+    padding-left: 2%;
   }
 
   .social-media li {
-    padding-top: 10px;
+    padding-right: 0;
+    padding-top: 15px;
   }
 
   .projects {
@@ -622,7 +632,7 @@ a {
   .projects h2 {
     text-align: start;
     border-bottom: 1px solid #000;
-    margin: 10px 0 20px;
+    margin: 60px 9% 100px 9%;
     padding-top: 68px;
     padding-bottom: 0;
     line-height: 0.1em;
@@ -634,26 +644,105 @@ a {
   }
 
   .projects .grid-container {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 9%;
+    margin-right: 9%;
     grid-template-columns: auto auto auto;
   }
 
   .projects .grid-container .first-project {
     grid-area: 1 / span 3;
+    display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 24px;
+  }
+
+  .img-project1 img {
+    width: 684px;
+    margin-right: 24px;
   }
 
   .project .grid-container .info-project1 {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    padding-left: 24px;
   }
+
+  .info-project1 h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .info-project1 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .info-project1 a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .info-project1 button {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .projects button {
+    display: none;
+  }
+
+  .project2 {
+    background-image: url("img/desktop/project/Img\ Placeholder2.png");
+    border: solid 1px #000;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .project2 h3, 
+  .project2 ul,
+  .project2 p {
+    display: none;
+  }
+
+  .next-projects {
+    margin-left: 0;
+    padding-top: auto;
+  }
+
+  .project2 p {
+    display: none;
+  }
+
+  .project2 button {
+    display: flex;
+    margin: 0;
+  }
+
+  .project3 {
+    background-image: url("img/desktop/project/Img\ Placeholder3.png");
+  }
+
+  .project4 {
+    background-image: url("img/desktop/project/Img\ Placeholder4.png");
+  }
+
+  .project5 {
+    background-image: url("img/desktop/project/Img\ Placeholder5.png");
+  }
+
   .about-me {
     background-image: url("img/desktop/illustration-about\ me@2x.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 672px 352px;
-    padding-left: 142px;
+    padding-left: 9%;
     padding-bottom: 139px;
   }
 
@@ -674,11 +763,19 @@ a {
   }
 
   .contacts {
+    padding: 0;
+    padding-left: 9%;
+    padding-right: 9%;
     flex-direction: row;
   }
 
   .contacts h4 {
+    margin-right: 24px;
     flex: 1;
+    text-align: start;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .contacts .contact-form {
