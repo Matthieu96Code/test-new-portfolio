@@ -388,6 +388,7 @@ body {
 }
 
 .about-me p {
+  max-width: 327px;
   font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
@@ -614,7 +615,22 @@ a {
     order: -1;
   }
 
+  .social-media li {
+    padding-top: 10px;
+  }
+
+  .projects {
+    background-image: url("img/footer/Frame2.png");
+    background-repeat: repeat;
+    background-position: right;
+  }
+
+  .projects h2 {
+    border-bottom: none;
+  }
   .projects .grid-container {
+    margin-left: 5%;
+    margin-right: 5%;
     grid-template-columns: auto auto auto;
   }
 
@@ -626,7 +642,20 @@ a {
   .project .grid-container .info-project1 {
     display: flex;
     flex-direction: column;
-    padding-left: 24px;
+  }
+  .about-me {
+    background-image: url("img/desktop/illustration-about\ me@2x.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 672px 352px;
+    padding-left: 142px;
+    padding-bottom: 139px;
+  }
+
+  .achivement {
+    background-size: 80% 2px;
+    padding-top: 146px;
+    padding-bottom: 146px;
   }
 
   .achivement-content {
@@ -635,6 +664,10 @@ a {
     align-items: flex-start;
   }
   
+  .achivement-list ul {
+    align-items: flex-start;
+  }
+
   .contacts {
     flex-direction: row;
   }
