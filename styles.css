@@ -35,6 +35,14 @@ body {
   margin: auto;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .toolbar {
   background-color: #3c3a39;
   width: 100%;
@@ -554,26 +562,17 @@ button:visited {
   background-color: #f4f1f0;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .inter-white {
   font-family: 'Inter', 'Courier New', Courier, monospace;
   color: #fff;
 }
 
 @media all and (min-width: 768px) {
-
   body {
     width: 100%;
   }
-  
-  .nav-btn{
+
+  .nav-btn {
     display: none;
   }
 
@@ -585,7 +584,7 @@ a {
     margin-right: 9%;
   }
 
-  .nav-links{
+  .nav-links {
     display: flex;
     margin-right: 25%;
   }
@@ -599,7 +598,6 @@ a {
     align-items: center;
     height: 870px;
     padding: 0;
-    
   }
 
   .primary-text,
@@ -628,7 +626,6 @@ a {
     padding: 0;
     flex-direction: column;
     margin-top: 0;
-    padding: 0;
     order: -1;
     width: 7%;
     padding-left: 2%;
@@ -671,8 +668,8 @@ a {
     grid-area: 1 / span 2;
     display: flex;
     flex-direction: row;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     margin-bottom: 24px;
   }
 
@@ -726,7 +723,7 @@ a {
   }
 
   .next-projects .dskp-project {
-    display:flex ;
+    display: flex;
   }
 
   .next-projects p {
@@ -743,7 +740,7 @@ a {
     border: solid 1px #000;
   }
 
-  .project2 h3, 
+  .project2 h3,
   .project2 ul,
   .project2 p {
     display: none;
@@ -784,7 +781,7 @@ a {
     line-height: 82px;
   }
 
-  .about-me P {
+  .about-me p {
     max-width: 566px;
     font-size: 20px;
     line-height: 32px;
@@ -801,7 +798,7 @@ a {
     justify-content: space-evenly;
     align-items: flex-start;
   }
-  
+
   .achivement-list ul {
     align-items: flex-start;
   }
@@ -835,15 +832,13 @@ a {
   }
 }
 
-
 @media all and (min-width: 1240px) {
-
   .headline {
     background-image: url("img/desktop/Illustration-header.png");
     background-repeat: no-repeat;
     background-position: right top;
   }
-  
+
   .projects .grid-container {
     margin-left: 9%;
     margin-right: 9%;
@@ -854,7 +849,7 @@ a {
   .projects .grid-container .first-project {
     grid-area: 1 / span 3;
   }
-  
+
   .about-me {
     background-image: url("img/desktop/illustration-about\ me@2x.png");
     background-repeat: no-repeat;
