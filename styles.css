@@ -292,6 +292,10 @@ body {
   margin-left: 16px;
 }
 
+.next-projects .dskp-project {
+  display: none;
+}
+
 .next-projects p {
   font-family: 'Inter', 'Courier New', Courier, monospace;
   font-style: normal;
@@ -608,6 +612,21 @@ a {
     padding-top: 14px;
   }
 
+  .primary-text {
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .supporting-text {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .description {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
   .social-media {
     padding: 0;
     flex-direction: column;
@@ -646,7 +665,9 @@ a {
   .projects .grid-container {
     margin-left: 9%;
     margin-right: 9%;
+    display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto 435px 435px;
   }
 
   .projects .grid-container .first-project {
@@ -694,15 +715,35 @@ a {
     line-height: 24px;
   }
 
-  .projects button {
+  .next-projects {
+    min-width: 369px;
+    margin-left: 0;
+    padding-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .next-projects .mbl-project {
+    display: none;
+  }
+
+  .next-projects .dskp-project {
+    display:flex ;
+  }
+
+  .next-projects p {
+    font-size: 17px;
+  }
+
+  .next-projects button {
     display: none;
   }
 
   .project2 {
     background-image: url("img/desktop/project/Img\ Placeholder2.png");
+    background-size: auto;
     border: solid 1px #000;
-    display: flex;
-    align-items: flex-end;
   }
 
   .project2 h3, 
@@ -711,30 +752,29 @@ a {
     display: none;
   }
 
-  .next-projects {
-    margin-left: 0;
-    padding-top: auto;
-  }
-
   .project2 p {
     display: none;
   }
 
   .project2 button {
+    width: auto;
     display: flex;
     margin: 0;
   }
 
   .project3 {
     background-image: url("img/desktop/project/Img\ Placeholder3.png");
+    background-size: auto;
   }
 
   .project4 {
     background-image: url("img/desktop/project/Img\ Placeholder4.png");
+    background-size: auto;
   }
 
   .project5 {
     background-image: url("img/desktop/project/Img\ Placeholder5.png");
+    background-size: auto;
   }
 
   .about-me {
@@ -744,6 +784,17 @@ a {
     background-size: 672px 352px;
     padding-left: 9%;
     padding-bottom: 139px;
+  }
+
+  .about-me h2 {
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .about-me P {
+    max-width: 566px;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .achivement {
@@ -780,5 +831,13 @@ a {
 
   .contacts .contact-form {
     flex: 1.5;
+  }
+
+  .footer-section {
+    padding: 0;
+  }
+
+  .social-media2 {
+    margin-top: 50px;
   }
 }
