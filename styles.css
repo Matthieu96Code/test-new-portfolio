@@ -54,6 +54,7 @@ a {
 
 .logo {
   margin-left: 24px;
+  animation: 0.5s rotated;
 }
 
 .logo a {
@@ -64,6 +65,16 @@ a {
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
+}
+
+@keyframes rotated {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 .nav-btn {
@@ -146,6 +157,7 @@ a {
   background-color: #ff6b00;
   width: 161px;
   height: 48px;
+  transition-duration: 1s;
 }
 
 .social-media2 a {
@@ -518,6 +530,12 @@ input[type=email] {
   font-family: 'Inter', 'Courier New', Courier, monospace;
   border: none;
   border-bottom: solid 2px #dbd8d7;
+  transition-duration: 0.5s;
+}
+
+input[type=text]:hover,
+input[type=email]:hover {
+  transform: translate(30px);
 }
 
 textarea {
