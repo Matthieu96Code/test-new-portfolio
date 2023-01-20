@@ -48,6 +48,7 @@
 - **show section about me**
 - **show contact form**
 - **allow submission**
+- **responsivity**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

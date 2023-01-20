@@ -567,10 +567,10 @@ a {
   color: #fff;
 }
 
-@media all and (min-width: 1240px) {
+@media all and (min-width: 768px) {
 
   body {
-    width: auto;
+    width: 100%;
   }
   
   .nav-btn{
@@ -595,9 +595,6 @@ a {
   }
 
   .headline {
-    background-image: url("img/desktop/Illustration-header.png");
-    background-repeat: no-repeat;
-    background-position: right top;
     flex-direction: row;
     align-items: center;
     height: 870px;
@@ -663,15 +660,15 @@ a {
   }
 
   .projects .grid-container {
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 4%;
+    margin-right: 4%;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto 435px 435px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 435px 435px 435px;
   }
 
   .projects .grid-container .first-project {
-    grid-area: 1 / span 3;
+    grid-area: 1 / span 2;
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -679,8 +676,8 @@ a {
     margin-bottom: 24px;
   }
 
-  .img-project1 img {
-    width: 684px;
+  .img-project1 {
+    min-width: 50%;
     margin-right: 24px;
   }
 
@@ -778,10 +775,6 @@ a {
   }
 
   .about-me {
-    background-image: url("img/desktop/illustration-about\ me@2x.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 672px 352px;
     padding-left: 9%;
     padding-bottom: 139px;
   }
@@ -839,5 +832,33 @@ a {
 
   .social-media2 {
     margin-top: 50px;
+  }
+}
+
+
+@media all and (min-width: 1240px) {
+
+  .headline {
+    background-image: url("img/desktop/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  
+  .projects .grid-container {
+    margin-left: 9%;
+    margin-right: 9%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 435px 435px;
+  }
+
+  .projects .grid-container .first-project {
+    grid-area: 1 / span 3;
+  }
+  
+  .about-me {
+    background-image: url("img/desktop/illustration-about\ me@2x.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 672px 352px;
   }
 }
