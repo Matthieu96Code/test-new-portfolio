@@ -276,6 +276,7 @@ a {
   padding: 12px;
   margin-top: 12px;
   border: none;
+  transition-duration: 1s;
 }
 
 .next-projects {
@@ -348,6 +349,7 @@ a {
   padding: 12px;
   margin-top: 22px;
   border: none;
+  transition-duration: 1s;
 }
 
 .aboutme-langs {
@@ -539,6 +541,7 @@ textarea {
   letter-spacing: 0.03em;
   padding: 12px;
   border: none;
+  transition-duration: 1s;
 }
 
 /* General */
@@ -707,6 +710,7 @@ button:visited {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
+    transition-duration: 1s;
   }
 
   .next-projects {
