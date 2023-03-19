@@ -10,3 +10,17 @@ li {
 a {
   text-decoration: none;
 }
+
+#menu-nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 12px 48px;
+  background-color: skyblue;
+}
+
+#nav-list {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
